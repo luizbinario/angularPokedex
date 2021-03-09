@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #B0C4DE;
+}
+
+a {
+    color: black;
+}
+a:active {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: black;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
