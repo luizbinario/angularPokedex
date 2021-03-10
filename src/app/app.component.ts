@@ -1,6 +1,7 @@
 import { identifierModuleUrl } from '@angular/compiler';
 import { Component } from '@angular/core';
 import { PokemonsService } from './pokemons.service';
+import { PokemonTypes } from '../assets/pokemon_types';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +13,7 @@ export class AppComponent {
   pokemon: any;
   id: number = 1;
   idPokemon: number = this.id;
+  types: any = PokemonTypes;
 
   constructor(private pokemons: PokemonsService) {
     this.pokemons.getPokemon(this.id)

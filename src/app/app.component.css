@@ -53,6 +53,22 @@
     margin:  0 auto;
 }
 
+.pokemon {
+    user-select: none;
+    width: 250px;
+    height: 250px;
+    margin:  0 auto;
+    position: absolute;
+}
+
+.type {
+    width: 245px;
+    text-align: right;
+    user-select: none;
+    padding: 5px 0 0 0; 
+    z-index: 1;
+}
+
 .buttons {
     display: flex;
     justify-content: center;
